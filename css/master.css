@@ -3,23 +3,23 @@ html { overflow-x: hidden; }
 /* fonts */
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url('./fonts/Montserrat-Bold.ttf') format("truetype");
+    src: url('../fonts/Montserrat-Bold.ttf') format("truetype");
 }
 @font-face {
     font-family: 'Montserrat-Medium';
-    src: url('./fonts/Montserrat-Medium.ttf') format("truetype");
+    src: url('../fonts/Montserrat-Medium.ttf') format("truetype");
 }
 @font-face {
     font-family: 'Montserrat-SemiBold';
-    src: url('./fonts/Montserrat-SemiBold.ttf') format("truetype");
+    src: url('../fonts/Montserrat-SemiBold.ttf') format("truetype");
 }
 @font-face {
     font-family: 'HelveticaNeue-Hv';
-    src: url('./fonts/HelveticaNeue-Hv.otf') format("opentype");
+    src: url('../fonts/HelveticaNeue-Hv.otf') format("opentype");
 }
 @font-face {
     font-family: 'HelveticaNeue-Lt';
-    src: url('./fonts/HelveticaNeue-Lt.otf') format("opentype");
+    src: url('../fonts/HelveticaNeue-Lt.otf') format("opentype");
 }
 
 .section {
