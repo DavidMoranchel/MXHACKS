@@ -255,7 +255,9 @@ html { overflow-x: hidden; }
 }
 
 .section-7 figure img {
-  width: 200px;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .section-7 figure figcaption {
@@ -381,12 +383,13 @@ html { overflow-x: hidden; }
   .float figure img {
     width: 80%;
   }
+  .section-7 figure {
+    margin: 10px;
+  }
   .section-7 figure img {
-    width: 100px;
+    width: 60%;
   }
 }
-
-
 
 /* #5cbcbb azul seccion 6*/
 /* #30488d azul seccion 2*/
