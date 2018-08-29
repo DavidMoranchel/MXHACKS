@@ -61,7 +61,7 @@ html { overflow-x: hidden; }
 
 /* Sections */
 .section-1 {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #0073df;
   color: white;
 }
