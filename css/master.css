@@ -266,6 +266,18 @@ html { overflow-x: hidden; }
   font-size: 24px;
 }
 
+/* SECTION 8 */
+.section-8 h3 {
+  font-family: "Montserrat-Medium";
+  font-size: 23px;
+}
+
+.section-8 figure figcaption {
+  font-family: "HelveticaNeue-Lt";
+  font-size: 18px;
+}
+
+
 /* footer */
 .footer {
   padding: 15px;
@@ -393,6 +405,9 @@ html { overflow-x: hidden; }
   }
   .section-7 figure img {
     width: 60%;
+  }
+  .section-8 figure img{
+    width: 200px;
   }
 }
 
