@@ -1,0 +1,72 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* fonts */
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'HelveticaNeue-Hv';
+    src: url('../fonts/HelveticaNeue-Hv.otf') format("opentype");
+}
+@font-face {
+    font-family: 'HelveticaNeue-Lt';
+    src: url('../fonts/HelveticaNeue-Lt.otf') format("opentype");
+}
+
+
+.navbar{
+    background-color: #18293A;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .navbar-nav
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .navbar-nav.nav-fill.ml-auto{width: 75% !important;}
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
+
+
+
+
+
+
+
+
+
