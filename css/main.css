@@ -27,6 +27,24 @@
     src: url('../fonts/HelveticaNeue-Lt.otf') format("opentype");
 }
 
+body {
+    background-color: #18293A;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
 
 .navbar {
     background-color: #18293A;
@@ -37,18 +55,23 @@
     font-size: 1.2rem;
     font-family: Montserrat;
 }
-.logo-unam{
-    width:42px;
-    height:50px;
+
+.logo-unam {
+    width: 42px;
+    height: 50px;
 }
-.logo-fi{
-    width:40px;
-    height:50px;
+
+.logo-fi {
+    width: 40px;
+    height: 50px;
 }
-.logo-sefi{
-    width:75px;
-    height:40px;
+
+.logo-sefi {
+    width: 75px;
+    height: 40px;
 }
+
+/* Intro */
 
 #intro {
     height: 85vh !important;
@@ -56,23 +79,25 @@
     background-image: url('../img/INICIO/fondo.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    
+
     text-align: center;
     color: white;
     font-family: Montserrat;
 }
-.intro-lugar{
+
+.intro-lugar {
     color: #f2ae00;
     font-weight: inherit;
     font-size: 1.2rem;
 }
-.intro-logo{
+
+.intro-logo {
     width: 50% !important;
     display: block;
 }
 
 button.btn-inscripcion {
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 1rem;
     font-family: 'Montserrat';
     font-size: x-large;
@@ -84,46 +109,147 @@ button.btn-inscripcion {
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px rgba(20, 25, 30, 0.98) inset;
-  }
-  
-  button.btn-inscripcion:hover {
+}
+
+button.btn-inscripcion:hover {
     box-shadow: none;
     color: white;
-  }
+}
+
+/* Carousel */
+#carousel-fotos {
+    height: 70vh;
+    background-color: grey;
+}
+
+/* About us */
+#nosotros-section {
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(22, 38, 53, 1);
+    border: none;
+    padding: 0 8vw;
+}
+
+.card-body {
+    background-color: rgba(61, 77, 101, 1);
+}
+
+.card-title {
+    font-weight: 300;
+    font-family: Montserrat;
+    font-size: initial;
+    line-height: inherit;
+}
+.card-text{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.card-header {
+    font-size: 1.3rem;
+}
+
+.card-header.title-it-show {
+    background: linear-gradient(0.25turn, #ca3058, #f49347);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-header.title-conisoft {
+    background: linear-gradient(0.25turn, #2cd664, #0083d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-header.title-mxhacks {
+    background: linear-gradient(0.25turn, #007fd0, #a135d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn-it-show {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #ca3058, #f49347);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgba(22, 38, 53, 1) inset;
+}
+
+
+.btn-conisoft {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #2cd664, #0083d4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgba(22, 38, 53, 1) inset;
+}
+
+
+.btn-mxhacks {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #007fd0, #a135d5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgba(22, 38, 53, 1) inset;
+}
+
+.btn-gradient {
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: white;
+    border: solid 2px transparent;
+
+}
+
+button.btn-gradient:hover {
+    box-shadow: none;
+    color: white;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #intro {
         background-size: 250%;
     }
-    
+
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .intro-logo{
+    .intro-logo {
         width: 35% !important;
         margin-top: 15%;
     }
-    .logo-unam{
-        width:85px;
-        height:100px;
+
+    .logo-unam {
+        width: 85px;
+        height: 100px;
     }
-    .logo-fi{
-        width:80px;
-        height:100px;
+
+    .logo-fi {
+        width: 80px;
+        height: 100px;
     }
-    .logo-sefi{
-        width:150px;
-        height:80px;
+
+    .logo-sefi {
+        width: 150px;
+        height: 80px;
     }
+
+    .card {
+        padding: 0;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -131,11 +257,16 @@ button.btn-inscripcion {
     .navbar-nav.nav-fill.ml-auto {
         width: 75% !important;
     }
-    .intro-logo{
+
+    .intro-logo {
         width: 20% !important;
         margin-top: 0%;
     }
-    
+
+    .card {
+        max-width: 230px;
+    }
+
 
 }
 
@@ -144,9 +275,8 @@ button.btn-inscripcion {
     #intro {
         background-size: contain;
     }
+
 }
 
 /* Extra Extra large devices (large laptops and desktops, 1920 and up) */
-@media only screen and (min-width: 1920px) {
-    
-}
+@media only screen and (min-width: 1920px) {}
