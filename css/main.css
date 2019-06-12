@@ -126,7 +126,7 @@ button.btn-inscripcion:hover {
 #nosotros-section {
     color: white;
     text-align: center;
-    height: 100vh;
+    margin-bottom: 5rem;
 }
 
 .card {
@@ -145,7 +145,8 @@ button.btn-inscripcion:hover {
     font-size: initial;
     line-height: inherit;
 }
-.card-text{
+
+.card-text {
     font-family: Montserrat;
     font-weight: 400;
 }
@@ -211,17 +212,41 @@ button.btn-gradient:hover {
     color: white;
 }
 
+/* Mapas */
+#maps{
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #intro {
         background-size: 250%;
+    }
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:50%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0px;
+        top:1rem;
+        height:100%;
+        width:100%;
+        position:absolute;
     }
 
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -249,7 +274,7 @@ button.btn-gradient:hover {
     .card {
         padding: 0;
     }
-
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
