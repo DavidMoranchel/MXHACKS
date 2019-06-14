@@ -129,29 +129,29 @@ button.btn-inscripcion:hover {
     margin-bottom: 5rem;
 }
 
-.card {
+.nosotros-cards.card {
     background-color: rgba(22, 38, 53, 1);
     border: none;
     padding: 0 8vw;
 }
 
-.card-body {
+.nosotros-cards.card-body {
     background-color: rgba(61, 77, 101, 1);
 }
 
-.card-title {
+.nosotros-cards h5.card-title {
     font-weight: 300;
     font-family: Montserrat;
     font-size: initial;
     line-height: inherit;
 }
 
-.card-text {
+.nosotros-cards p.card-text {
     font-family: Montserrat;
     font-weight: 400;
 }
 
-.card-header {
+.nosotros-cards div.card-header {
     font-size: 1.3rem;
 }
 
@@ -213,43 +213,118 @@ button.btn-gradient:hover {
 }
 
 /* Mapas */
-#maps{
+#maps {
     color: white;
     text-align: center;
     margin-bottom: 5rem;
 }
-.separador{
+
+.faq-card {
+    margin: 1rem;
+}
+
+.faq-card:nth-child(4n) {
+    border: rgba(35, 127, 96, 1) solid 1px;
+    background-color: rgba(35, 127, 96, 0.5);
+}
+
+.faq-card:nth-child(4n+1) {
+    border: rgba(147, 110, 87, 1) solid 1px;
+    background-color: rgba(147, 110, 87, 0.5);
+}
+
+.faq-card:nth-child(4n+2) {
+    border: rgba(24, 108, 168, 1) solid 1px;
+    background-color: rgba(24, 108, 168, 0.5);
+}
+
+.faq-card:nth-child(4n+3) {
+    border: rgba(150, 61, 95, 1) solid 1px;
+    background-color: rgba(150, 61, 95, 0.5);
+}
+
+.faq-box {
+    background-color: #3d4d65;
+    border-radius: 10px;
+}
+
+.faq-title {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: white;
+    text-decoration: none;
+}
+
+.faq-title:hover {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: white;
+    text-decoration: none;
+}
+
+.faq-title:visited {
+    text-decoration: none;
+}
+
+.faq-title:active {
+    text-decoration: none;
+}
+
+.faq-title:link {
+    text-decoration: none;
+}
+
+.faq-title:focus {
+    text-decoration: none;
+}
+
+.faq-box div.box-title {
+    text-align: center;
+}
+
+.faq-box div.box-title img {
+    margin: auto;
+}
+
+#faq h2 {
+    color: white;
+    text-align: center;
+}
+
+.faq-body {
+    color: white;
+    font-family: Montserrat;
 
 }
 
-
+/*  */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #intro {
         background-size: 250%;
     }
-    .map-responsive{
-        overflow:hidden;
-        padding-bottom:50%;
-        position:relative;
-        height:0;
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
     }
-    .map-responsive iframe{
-        left:0px;
-        top:1rem;
-        height:100%;
-        width:100%;
-        position:absolute;
+
+    .map-responsive iframe {
+        left: 0px;
+        top: 1rem;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
 
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
-}
+@media only screen and (min-width: 600px) {}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -274,10 +349,10 @@ button.btn-gradient:hover {
         height: 80px;
     }
 
-    .card {
+    .nosotros-cards.card {
         padding: 0;
     }
-    
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -291,7 +366,7 @@ button.btn-gradient:hover {
         margin-top: 0%;
     }
 
-    .card {
+    .nosotros-cards.card {
         max-width: 230px;
     }
 
