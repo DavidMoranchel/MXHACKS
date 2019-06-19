@@ -32,7 +32,7 @@ body {
 }
 
 .subtitle {
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -40,7 +40,7 @@ body {
 }
 
 .section-description {
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.8;
@@ -53,7 +53,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 1.2rem;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
 }
 
 .logo-unam {
@@ -74,7 +74,7 @@ body {
 /* Intro */
 
 #intro {
-    height: 85vh !important;
+    /* height: 75vh !important; */
     background-color: #18293A;
     background-image: url('../img/INICIO/fondo.png');
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
 
     text-align: center;
     color: white;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
 }
 
 .intro-lugar {
@@ -98,8 +98,8 @@ body {
 
 button.btn-inscripcion {
     text-transform: uppercase;
+    margin-bottom: 2rem;
     padding: 1rem;
-    font-family: 'Montserrat';
     font-size: x-large;
     padding: .5rem 3rem;
     color: white;
@@ -141,13 +141,13 @@ button.btn-inscripcion:hover {
 
 .nosotros-cards h5.card-title {
     font-weight: 300;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     font-size: initial;
     line-height: inherit;
 }
 
 .nosotros-cards p.card-text {
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     font-weight: 400;
 }
 
@@ -201,7 +201,6 @@ button.btn-inscripcion:hover {
     border-radius: 2rem;
     padding: 0.5rem 2rem;
     text-transform: uppercase;
-    font-family: 'Montserrat';
     color: white;
     border: solid 2px transparent;
 
@@ -217,6 +216,10 @@ button.btn-gradient:hover {
     color: white;
     text-align: center;
     margin-bottom: 5rem;
+}
+/* Challenges */
+.challenges{
+    max-width: 100%;
 }
 
 .faq-card {
@@ -250,14 +253,14 @@ button.btn-gradient:hover {
 
 .faq-title {
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     color: white;
     text-decoration: none;
 }
 
 .faq-title:hover {
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
     color: white;
     text-decoration: none;
 }
@@ -293,16 +296,30 @@ button.btn-gradient:hover {
 
 .faq-body {
     color: white;
-    font-family: Montserrat;
+    font-family: "Montserrat-Medium";
 
 }
 
-/*  */
+/* Footer */
+
+footer {
+    background-color: rgba(22, 38, 53, 1);
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+#challenge-section {
+    color: white;
+    text-align: center;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #intro {
-        background-size: 250%;
+        background-size: 100%;
     }
 
     .map-responsive {
@@ -321,6 +338,12 @@ button.btn-gradient:hover {
     }
 
 
+}
+
+.title-arte {
+    background: linear-gradient(0.25turn, #a135d5, #ca3058);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -352,6 +375,9 @@ button.btn-gradient:hover {
     .nosotros-cards.card {
         padding: 0;
     }
+    .nosotros-cards.card.challenges{
+        margin-bottom: 2rem;
+    }
 
 }
 
@@ -369,15 +395,17 @@ button.btn-gradient:hover {
     .nosotros-cards.card {
         max-width: 230px;
     }
-
+    #intro {
+        background-size: contain;
+    }
+    .nosotros-cards.card.challenges{
+        max-width: 100%;
+    }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #intro {
-        background-size: contain;
-    }
 
 }
 
