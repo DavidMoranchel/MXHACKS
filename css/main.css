@@ -37,6 +37,8 @@ body {
     font-weight: 500;
     line-height: 1.2;
     text-transform: uppercase;
+    color: white;
+    text-align: center;
 }
 
 .section-description {
@@ -297,7 +299,35 @@ button.btn-gradient:hover {
 
 }
 
-/*  */
+/* Patrocinadores */
+.presenting-sponsor div img {
+    margin: auto;
+    height: auto;
+    width: 100rem;
+}
+.gold-sponsors div img{
+    margin: auto;
+    height: auto;
+    width: 30rem;
+}
+
+.silver-sponsors div img{
+    margin: auto;
+    height: auto;
+    width: 25rem;
+}
+
+.bronze-sponsors div img {
+    margin: auto;
+    height: auto;
+    width: 20rem;
+}
+
+.other-sponsors div img{
+    margin: auto;
+    height: auto;
+    width: 10rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
