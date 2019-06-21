@@ -332,6 +332,15 @@ button.btn-gradient:hover {
     height: auto;
     width: 10rem;
 }
+
+.presenting-sponsor{
+    text-align: center;
+    padding: 2rem 0;
+}
+.presenting-sponsor div img {
+    width: 90%;
+}
+
 /* Footer */
 
 footer {
@@ -385,6 +394,10 @@ footer a{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #intro{
+        background-size: cover;
+        background-image: url('../img/INICIO/fondo2-01.png');
+    }
     .intro-logo {
         width: 35% !important;
         margin-top: 15%;
@@ -411,6 +424,9 @@ footer a{
     .nosotros-cards.card.challenges{
         margin-bottom: 2rem;
     }
+    .presenting-sponsor div img{
+        width: 40%;
+    }
 
 }
 
@@ -429,7 +445,7 @@ footer a{
         max-width: 230px;
     }
     #intro {
-        background-size: contain;
+        /* background-size: contain; */
     }
     .nosotros-cards.card.challenges{
         max-width: 100%;
