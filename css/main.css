@@ -76,7 +76,7 @@ body {
 /* Intro */
 
 #intro {
-    /* height: 75vh !important; */
+    height: 83vh !important;
     background-color: #18293A;
     background-image: url('../img/INICIO/fondo.png');
     background-repeat: no-repeat;
