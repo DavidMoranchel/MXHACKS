@@ -81,7 +81,7 @@ body {
     background-image: url('../img/INICIO/fondo.png');
     background-repeat: no-repeat;
     background-position: bottom;
-
+    height: 85vh;
     text-align: center;
     color: white;
     font-family: "Montserrat-Medium";
