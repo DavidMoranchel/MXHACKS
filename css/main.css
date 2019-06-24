@@ -1,4 +1,7 @@
-
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
 /* fonts */
 @font-face {
     font-family: 'Montserrat-Bold';
@@ -73,14 +76,13 @@ body {
 
 /* Intro */
 
-
 #intro {
-    /* height: 75vh !important; */
+    height: 83vh !important;
     background-color: #18293A;
     background-image: url('../img/INICIO/fondo.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 85vh;
+
     text-align: center;
     color: white;
     font-family: "Montserrat-Medium";
@@ -459,3 +461,4 @@ footer a{
 
 /* Extra Extra large devices (large laptops and desktops, 1920 and up) */
 @media only screen and (min-width: 1920px) {}
+>>>>>>> master
