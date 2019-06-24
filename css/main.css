@@ -1,7 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
 /* fonts */
 @font-face {
     font-family: 'Montserrat-Bold';
@@ -358,6 +358,9 @@ footer a{
     text-align: center;
 
 }
+#images-intro div img{
+    border-radius: 300px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -378,6 +381,9 @@ footer a{
         height: 100%;
         width: 100%;
         position: absolute;
+    }
+    .img-intro:nth-child(2){
+        margin-top: 2rem;
     }
 
 
@@ -461,4 +467,3 @@ footer a{
 
 /* Extra Extra large devices (large laptops and desktops, 1920 and up) */
 @media only screen and (min-width: 1920px) {}
->>>>>>> master
