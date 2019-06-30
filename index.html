@@ -18,7 +18,7 @@
     <meta name="description" content="Sitio web oficial del MXHacks V" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@8.13.0/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
 
@@ -80,7 +80,7 @@
       <h2 class="intro-fechas mt-5">del 21 al 27 de Oct 2019</h2>
       <h3 class="intro-lugar mb-5">Facultad de Ingeniería y Centro de Exposiciones y Congresos UNAM</h3>
 
-      <button type="button" class="btn btn-large btn-inscripcion" data-container="body" data-toggle="popover" data-placement="top" data-content="¡Próximamente!">
+      <button id="inscribirme" type="button" class="btn btn-large btn-inscripcion">
         INSCRIBIRME
       </button>
     </div>
@@ -617,7 +617,7 @@
           </div>
         </div>
         <div class="row inscribir-faq mt-5 mb-3 justify-content-center">
-          <button type="button" class="btn btn-large btn-inscripcion" data-container="body" data-toggle="popover" data-placement="top" data-content="¡Próximamente!">
+          <button type="button" class="btn btn-large btn-inscripcion">
             INSCRIBIRME
           </button>
         </div>
@@ -708,13 +708,15 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="./js/main.js"
-    ></script>
-    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
     <script src="./js\vendor\bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.13.0/dist/sweetalert2.all.min.js"></script>
+    <script
+      src="./js/main.js"
+    ></script>
   </body>
 </html>
