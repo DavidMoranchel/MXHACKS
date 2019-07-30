@@ -118,6 +118,7 @@ button.btn-inscripcion:hover {
     color: white;
 }
 
+
 /* Carousel */
 #carousel-fotos {
     height: 70vh;
@@ -212,6 +213,11 @@ button.btn-gradient:hover {
     box-shadow: none;
     color: white;
 }
+a.btn-gradient:hover {
+    box-shadow: none;
+    color: white;
+}
+
 
 /* Mapas */
 #maps {
@@ -373,6 +379,11 @@ button.swal2-confirm.swal2-styled{
 }
 
 #popInscr button{
+    color: white;
+    background-color: rgba(22, 38, 53, 1);
+    text-transform: uppercase;
+}
+#popInscr a{
     color: white;
     background-color: rgba(22, 38, 53, 1);
     text-transform: uppercase;
