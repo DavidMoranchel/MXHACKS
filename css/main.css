@@ -483,6 +483,9 @@ button.swal2-confirm.swal2-styled{
     }
 
 }
+#cisco {
+    width: 10rem;
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
