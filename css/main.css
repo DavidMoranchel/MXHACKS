@@ -119,6 +119,7 @@ button.btn-inscripcion:hover {
     color: white;
 }
 
+
 /* Carousel */
 #carousel-fotos {
     height: 70vh;
@@ -213,6 +214,11 @@ button.btn-gradient:hover {
     box-shadow: none;
     color: white;
 }
+a.btn-gradient:hover {
+    box-shadow: none;
+    color: white;
+}
+
 
 /* Mapas */
 #maps {
@@ -322,12 +328,27 @@ button.btn-gradient:hover {
     width: 25rem;
 }
 
+.bronze-sponsors{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:stretch;
+}
+
 .bronze-sponsors div img {
     margin: auto;
     height: auto;
     width: 20rem;
 }
 
+.other-sponsors {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:stretch;
+}
 .other-sponsors div img{
     margin: auto;
     height: auto;
@@ -360,6 +381,42 @@ footer a{
 }
 #images-intro div img{
     border-radius: 300px;
+}
+
+#popIsncr{
+    color: white;
+}
+#swal2-title{
+    color: white;
+}
+
+button.swal2-confirm.swal2-styled{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #2cd664, #0083d4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgba(22, 38, 53, 1) inset;
+}
+
+#popInscr button{
+    color: white;
+    background-color: rgba(22, 38, 53, 1);
+    text-transform: uppercase;
+}
+#popInscr a{
+    color: white;
+    background-color: rgba(22, 38, 53, 1);
+    text-transform: uppercase;
+}
+
+#sefi {
+    width: 13rem;
+}
+
+#fb {
+    width: 15rem;
+}
+#here {
+    width: 8rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -458,6 +515,12 @@ footer a{
         max-width: 100%;
     }
 
+}
+#cisco {
+    width: 10rem;
+}
+#aruba {
+    width: 10rem;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
