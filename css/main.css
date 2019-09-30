@@ -1,6 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /* fonts */
 @font-face {
     font-family: 'Montserrat-Bold';
@@ -378,6 +379,9 @@ footer a{
     text-align: center;
 
 }
+#images-intro div img{
+    border-radius: 300px;
+}
 
 #popIsncr{
     color: white;
@@ -434,6 +438,9 @@ button.swal2-confirm.swal2-styled{
         height: 100%;
         width: 100%;
         position: absolute;
+    }
+    .img-intro:nth-child(2){
+        margin-top: 2rem;
     }
 
 
