@@ -320,13 +320,12 @@ a.btn-gradient:hover {
     margin: auto;
     height: auto;
     width: 20rem;
-    margin: 2rem;
 }
 
 .silver-sponsors div img{
     margin: auto;
     height: auto;
-    width: 25rem;
+    width: 21rem;
 }
 
 .bronze-sponsors{
@@ -491,6 +490,9 @@ button.swal2-confirm.swal2-styled{
     }
     .presenting-sponsor div img{
         width: 40%;
+    }
+    .gold-sponsors div img{
+        margin: 2rem;
     }
 
 }
