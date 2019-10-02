@@ -319,7 +319,8 @@ a.btn-gradient:hover {
 .gold-sponsors div img{
     margin: auto;
     height: auto;
-    width: 30rem;
+    width: 20rem;
+    margin: 2rem;
 }
 
 .silver-sponsors div img{
